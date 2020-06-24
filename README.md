@@ -1,0 +1,1 @@
+This is a simple Tic Tac Toe game. The goal of the project besides making a beautiful interface is to apply the javascript module pattern in order to delivery quality code. Hope you enjoy it.

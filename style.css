@@ -1,0 +1,28 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.top-bar{
+  background-color: red;
+  height: 20vh;
+  margin: 10px 10px 0px 10px;
+}
+.middle{
+  background-color: red;
+  height: 60vh;
+  margin: 10px 10px 0px 10px;
+}
+.bottom-bar{
+  background-color: red;
+  height: 20vh;
+  margin: 10px 10px 10px 10px;
+}
