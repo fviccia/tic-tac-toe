@@ -1,11 +1,21 @@
-(function () {
-  let gameboard = [];
-})()
+let GameBoard = (function () {
+  let gameBoard = [];
+})();
 
-(function () {
-  let gameboard = [];
-})()
+let Players = (function () {
+  let playerOneName = '';
+  let playerTwoName = '';
+})();
 
-(function () {
-  let gameboard = [];
-})()
+let GameFlow = (function () {
+
+})();
+
+let DisplayController = (function() {
+  
+})();
+
+let playerFactory = (number, name) => {
+  let greeting = 'Hi ' + name + ' now you are player number ' + number; 
+  return { number, name, greeting};
+};
