@@ -8,9 +8,30 @@
 <body>
   <main>
     <div class="container">
-      <div class="top-bar"><br></div>
-      <div class="middle"><br></div>
-      <div class="bottom-bar"><br></div>
+      <div class="top-bar">
+        <button class="start-button" id="start" onclick="GameFlow._startGame()">Start Game</button>
+        <div class="winner" id="showWinner"></div>
+      </div>
+      <div class="middle">
+        <div id="board">
+          <div onclick="clicked(0)" class="box" id="0"></div>
+          <div onclick="clicked(1)" class="box" id="1"></div>
+          <div onclick="clicked(2)" class="box" id="2"></div>
+          <div onclick="clicked(3)" class="box" id="3"></div>
+          <div onclick="clicked(4)" class="box" id="4"></div>
+          <div onclick="clicked(5)" class="box" id="5"></div>
+          <div onclick="clicked(6)" class="box" id="6"></div>
+          <div onclick="clicked(7)" class="box" id="7"></div>
+          <div onclick="clicked(8)" class="box" id="8"></div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="showPlayer" id="playerOne"></div>
+        <div class="showPlayer" class="marker" id="playerOneMarker"></div>
+        <div class="showPlayer" id="playerTwo"></div>
+        <div class="showPlayer" class="marker" id="playerTwoMarker"></div>
+
+      </div>
     </div>
   </main>
   <script src="/script.js"></script>
